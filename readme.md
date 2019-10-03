@@ -3,4 +3,5 @@ desde la terminal:
 git clone https://github.com/marioalvazquez/EasyFit.git
 cd EasyFit
 npm i
-expo start
+expo star
+------
