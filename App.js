@@ -5,6 +5,7 @@ import { createAppContainer } from 'react-navigation';
 import { createStackNavigator } from 'react-navigation-stack';
 import getTheme from './native-base-theme/components';
 import material from './native-base-theme/variables/material';
+import login from './Components/login'
 import * as Font from 'expo-font';
 import { Ionicons } from '@expo/vector-icons';
 
@@ -64,7 +65,7 @@ class App extends React.Component {
 
 const AppNavigator = createStackNavigator({
     Home: {
-      screen: App,
+      screen: login,
     },
   });
 
